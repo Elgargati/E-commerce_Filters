@@ -8,12 +8,15 @@ function Header({ cartCount }) {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <h1 className="text-2xl font-bold tracking-wide">
-          <Link to="/">Med-store</Link>
+          <Link to="/E-commerce_Filters/">Med-store</Link>
         </h1>
 
         {/* Navigation */}
         <nav className="flex space-x-6 text-lg font-medium">
-          <Link to="/" className="hover:text-gray-300 transition-colors">
+          <Link
+            to="/E-commerce_Filters/"
+            className="hover:text-gray-300 transition-colors"
+          >
             Accueil
           </Link>
           <Link

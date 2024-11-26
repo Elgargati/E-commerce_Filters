@@ -30,7 +30,10 @@ function App() {
           </div>
         )}
         <Routes>
-          <Route path="/" element={<HomePage addToCart={addToCart} />} />
+          <Route
+            path="/E-commerce_Filters/"
+            element={<HomePage addToCart={addToCart} />}
+          />
           <Route path="/cart" element={<CartPage cart={cart} />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
